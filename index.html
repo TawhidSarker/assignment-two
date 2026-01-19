@@ -9,47 +9,89 @@
     <title>TechWave</title>
 </head>
 
-<body class="max-w-400 m-auto">
+<body class="lg:max-w-400 m-auto">
     <header>
         <nav class="max-h-92 flex justify-around py-8 bg-[#1A0B2E] items-center text-white">
             <img src="assets/techwave-logo.png" alt="">
-            <div class="flex gap-8">
-                <a href="">About</a>
-                <a href="">Episodes</a>
-                <a href="">Host</a>
+            <div class="lg:flex gap-8 ">
+                <a class="" href="">About</a>
+                <a class="" href="">Episodes</a>
+                <a class="" href="">Host</a>
+                <!-- <img class="" src="assets/hamburger-menu.png" alt=""> -->
             </div>
             <button type="button"
-                class="px-8 py-3 rounded-4xl bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] font-semibold">
+                class="px-8 py-3 rounded-4xl bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] font-semibold ">
                 Subscribe <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
             </button>
         </nav>
         <hr class="border-[#412567]">
 
         <!-- Banner section -->
-        
+
         <section class="max-h-190 bg-[url(assets/hero-bg.png)] m-auto">
             <div class=" flex-col text-center  m-auto px-131 py-25 ">
                 <div class="flex relative justify-center">
                     <img class="max-w-[350px] block" src="assets/hero-circle.png" alt="">
-                    <img class="absolute top-1/2 -translate-y-1/2 max-h-[175px] z-10"
-                        src="assets/microphone.png" alt="">
+                    <img class="absolute top-1/2 -translate-y-1/2 max-h-[175px] z-10" src="assets/microphone.png"
+                        alt="">
                 </div>
                 <div class="mt-10">
                     <h1 class="text-6xl font-extrabold text-white">TechWave</h1>
-                    <p class="text-white mt-2">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+                    <p class="text-white mt-2">Your daily dose of tech insights, productivity hacks, and personal growth
+                    </p>
                 </div>
                 <div class="flex justify-center gap-2 mt-6">
                     <button type="button"
                         class="text-white flex items-center justify-center gap-2 m-a px-5 py-3 rounded-4xl bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] font-semibold"><img
                             class="max-h-5" src="assets/spotify.png" alt=""> Listen on Spotify</button>
                     <button type="button"
-                        class="text-[#00FF88] flex items-center gap-2 m-a px-5 py-3 rounded-4xl border-[#00FF88] border-2"><img
+                        class="text-[#00FF88] flex items-center gap-2 m-a px-5 py-3 rounded-4xl border-[#00FF88] font-semibold border-2"><img
                             src="assets/message.png" alt=""> Subscribe</button>
                 </div>
             </div>
         </section>
 
     </header>
+
+    <!-- About the podcast section -->
+
+    <section class="text-center bg-[#1A0B2E]">
+        <div class="px-50 pb-30 pt-12">
+            <div>
+                <h2 class="text-5xl font-bold text-white pb-4">About The Podcast</h2>
+                <p class="text-white leading-8">
+                    TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+                    We break down complex topics into digestible insights, explore productivity strategies that
+                    actually
+                    work,<br> and share stories of personal growth from industry leaders.
+                </p>
+                <p class="text-white mt-8">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+            </div>
+
+            <hr class="border-white opacity-10 mt-20">
+
+            <div class="grid grid-cols-4 gap-20 mt-20">
+                <div class="text-center">
+                    <h1 class="font-black text-5xl text-[#00FF88]">150+</h1>
+                    <p class="text-white mt-4">Monthly Listeners</p>
+                </div>
+                <div>
+                    <h1 class="font-black text-5xl text-[#00FF88]">200+</h1>
+                    <p class="text-white mt-4">Episodes Published</p>
+                </div>
+                <div>
+                    <h1 class="font-black text-5xl text-[#00FF88]">4.9★</h1>
+                    <p class="text-white mt-4">Average Rating</p>
+                </div>
+                <div>
+                    <h1 class="font-black text-5xl text-[#00FF88]">50+</h1>
+                    <p class="text-white mt-4">Industry Experts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
 </body>
 

@@ -20,7 +20,7 @@
                 <!-- <img class="" src="assets/hamburger-menu.png" alt=""> -->
             </div>
             <button type="button"
-                class="px-8 py-3 rounded-4xl bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] font-semibold ">
+                class="px-8 py-3 rounded-4xl bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] font-semibold cursor-pointer hover:from-[#9100F8] hover:via-[#FB09B4] hover:to-[#F7E93F] hover:ease-in-out">
                 Subscribe <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>
             </button>
         </nav>
@@ -139,42 +139,58 @@
 
     <section class="bg-[#1A0B2E] text-white px-50 py-30">
         <div>
-            <h1 class="text-5xl font-bold text-center text-white">Featured Episodes</h1>
-            <div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cwkEfBki4jU?si=BZ5l4Xs6cBZJjziv"
-                        title="YouTube video player" frameborder="0"
+            <h1 class="text-5xl font-bold text-center text-white mb-10">Featured Episodes</h1>
+            <div class="grid grid-cols-3 gap-7">
+                <div class="grid bg-[#250D44] rounded-3xl">
+                    <iframe class="rounded-t-3xl aspect-video"
+                        src="https://www.youtube.com/embed/cwkEfBki4jU?si=BZ5l4Xs6cBZJjziv" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <h3>Sudden Plan, Breakfast & Chill</h3>
-                    <p>Friday night's sudden planning, I'll eat khichdi in Miami. The plan was getting canceled due to
-                        rain on Saturday morning. After a while, the sky cleared. Then everyone was present at Shaheed Minar.
-                        It was all fun at the end. After a long time, I went out for a short long ride. After a long time.
-                    </p>
-                    <p><img src="assets/clock.png" alt="">3 min</p>
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="font-bold text-2xl">Sudden Plan, Breakfast & Chill</h3>
+                        <p>Friday night's sudden planning, I'll eat khichuri in Miami. The plan was getting canceled due
+                            to rain on Saturday morning.
+                        </p>
+                        <p class="text-[#00ff88] flex items-center gap-1.5"><img class="" src="assets/clock.png"
+                                alt="">3 min</p>
+                    </div>
                 </div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pZ6TEdQtbYU?si=vtA6NKke9icwrDwI"
-                        title="YouTube video player" frameborder="0"
+                <div class="grid bg-[#250D44] rounded-3xl">
+                    <iframe class="rounded-t-3xl aspect-video"
+                        src="https://www.youtube.com/embed/pZ6TEdQtbYU?si=326EsqxNFvxgaHUo" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <h3>Sudden Plan, Breakfast & Chill</h3>
-                    <p>This ride wasn not just another tour for me — it became a journey full of memories.
-                        I got to put everything I learned at FRA into practice, and ended up learning so much more along
-                        the way. For the first time, I saw mountains. Fell in love with cornering and the thrill of riding
-                        through hills. Now, I am hooked.</p>
-                    <p><img src="assets/clock.png" alt="">3 min</p>
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="font-bold text-2xl">Sudden Plan, Breakfast & Chill</h3>
+                        <p>This ride wasn’t just another tour for me — it became a journey full of memories.
+                            I got to put everything I learned at FRA into practice.
+                        </p>
+                        <p class="text-[#00ff88] flex items-center gap-1.5"><img class="" src="assets/clock.png"
+                                alt="">3 min</p>
+                    </div>
                 </div>
-                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/P4WChy4kUZA?si=xZ0TIvbsEBfiTb5P"
-                        title="YouTube video player" frameborder="0"
+                <div class="grid bg-[#250D44] rounded-3xl">
+                    <iframe class="rounded-t-3xl aspect-video"
+                        src="https://www.youtube.com/embed/P4WChy4kUZA?si=P1ImrVMGdO2GHHlC" title="YouTube video player"
+                        frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                    <h3>Sudden Plan, Breakfast & Chill</h3>
-                    <p>As the New Year approaches, winter has set in. Everything is covered in fog.</p>
-                    <p><img src="assets/clock.png" alt="">4 min</p>
+                    <div class="p-6 flex flex-col gap-3">
+                        <h3 class="font-bold text-2xl">Winter Evening of Dhaka</h3>
+                        <p>Dhaka's winter (Nov-Feb) offers pleasant, dry, and sunny weather with cooler temperatures,
+                            typically 13°C to 25°C (55°F-77°F)
+                        </p>
+                        <p class="text-[#00ff88] flex items-center gap-1.5"><img class="" src="assets/clock.png"
+                                alt="">3 min</p>
+                    </div>
                 </div>
             </div>
+        </div>
+
+        <div>
+            
         </div>
     </section>
 
